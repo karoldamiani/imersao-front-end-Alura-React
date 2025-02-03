@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Spotify Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o projeto
 
-## Available Scripts
+Este projeto é uma recriação do Spotify Web, desenvolvido para aprimorar habilidades em desenvolvimento front-end. A aplicação possui uma interface moderna, componentes reutilizáveis e integração com uma API falsa para simulação de dados musicais. O projeto foi desenvolvido utilizando **React, HTML, CSS e JavaScript**, juntamente com **JSON-Server** para simulação de dados.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- **Barra de pesquisa funcional**: Filtra artistas e playlists com base na pesquisa do usuário.
+- **Interface interativa**: Navegação fluida entre os componentes.
+- **Componentização**: Organização do código em componentes reutilizáveis para facilitar a manutenção e escalabilidade.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pré-requisitos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Antes de iniciar o projeto, certifique-se de ter instalado:
 
-### `npm test`
+- **Node.js** e **npm**
+- **Um navegador moderno** (Google Chrome, Mozilla Firefox, Microsoft Edge)
+- **Uma IDE** (VS Code recomendado)
+- **JSON-Server** para simulação de API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como usar
 
-### `npm run build`
+1. **Clone o repositório** ou baixe os arquivos para o seu computador.
+2. **Instale as dependências** executando o comando:
+   ```sh
+   npm install
+   ```
+3. **Inicie o JSON-Server** para simular a API:
+   ```sh
+   json-server --watch artists.json --port 5000
+   ```
+4. **Execute a aplicação React**:
+   ```sh
+   npm start
+   ```
+5. **Explore o projeto** através do navegador!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** para construção da interface
+- **CSS e Styled Components** para estilização
+- **JavaScript (ES6+)** para interatividade
+- **JSON-Server** para simulação de API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribuição
 
-### `npm run eject`
+Caso queira contribuir com melhorias para o projeto, siga os passos:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Faça um fork** do repositório
+2. **Crie uma branch** para sua funcionalidade (`git checkout -b minha-feature`)
+3. **Commit suas alterações** (`git commit -m 'Adicionando nova funcionalidade'`)
+4. **Faça push** para sua branch (`git push origin minha-feature`)
+5. **Abra um Pull Request**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este projeto é de código aberto e pode ser utilizado livremente para aprendizado e experimentação.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+Feito com ❤️ para a comunidade de desenvolvedores! 🚀
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
