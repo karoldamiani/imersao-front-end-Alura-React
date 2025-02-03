@@ -1,4 +1,4 @@
-# Spotify Clone
+# Spotify
 
 ## Sobre o projeto
 
